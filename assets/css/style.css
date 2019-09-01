@@ -29,22 +29,26 @@ button{
 }
 
 #name{
-    float:left;
     background-color: aqua;
-    margin-bottom:0;
-    padding-left: 15%;
-    padding-right: 15%;
 }
-.clearfix {
-    overflow: auto;
-  }
+
 #instructions{
  text-align: center;
- padding-left: 20%;
- padding-right: 30%;
- margin-bottom: 0;
-float: right;
- 
+}
+.drink-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+}
+
+.name-recipe-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -52,5 +56,4 @@ float: right;
 img{
     width: 25%;
     align-content: center;
-    float: left;
 }
